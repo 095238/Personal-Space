@@ -5,7 +5,6 @@ using namespace std;
 int main(int argc, char* argv[])
 {
     int N = 0;
-    int i = 0;
     int x = 0;
     int n = 0;
     int p = 0;
@@ -13,20 +12,20 @@ int main(int argc, char* argv[])
 
     cin >> N;
 
-    for (i = 1; i <= N; i++)
+    for (int i = 0; i < N; ++i)
     {
         cin >> x;
         if (x == 0)
         {
-            n++;
+            ++n;
         }
         else if (x > 0)
         {
-            p++;
+            ++p;
         }
         else
         {
-            o++;
+            ++o;
         }
     }
 

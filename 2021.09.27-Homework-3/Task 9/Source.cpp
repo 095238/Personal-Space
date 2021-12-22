@@ -8,11 +8,10 @@ int main(int argc, char* argv[])
     int b = 0;
     int c = 0;
     int d = 0;
-    int i = 0;
 
     cin >> a >> b >> c >> d;
 
-    for (i = a; i <= b; i++)
+    for (int i = a; i <= b; ++i)
     {
         if (i % d == c)
         {

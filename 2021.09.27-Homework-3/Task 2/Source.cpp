@@ -6,7 +6,6 @@ int main(int argc, char* argv[])
 {
     int n = 0;
     int d = 2;
-    int i = 0;
 
     cin >> n;
 
@@ -16,7 +15,7 @@ int main(int argc, char* argv[])
     }
     else
     {
-        for (i = 1; i <= n - 1; i++)
+        for (int i = 0; i < n - 1; ++i)
         {
             d = d * 2;
         }

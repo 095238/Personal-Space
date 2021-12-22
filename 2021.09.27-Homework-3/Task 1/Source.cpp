@@ -6,7 +6,7 @@ int main(int argc, char* argv[])
 {
     int n = 0;
     int d = 1;
-    int i = 0;
+    int s = 0;
 
     cin >> n;
 
@@ -16,9 +16,10 @@ int main(int argc, char* argv[])
     }
     else
     {
-        for (i = 1; i <= n-1; i++)
+        for (int i = 0; i < n - 1; ++i)
         {
-            d = d * (i+1);
+            ++s;
+            d = d * (s + 1);
         }
     }
     cout << d << endl;

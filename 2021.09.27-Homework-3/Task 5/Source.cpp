@@ -5,17 +5,18 @@ using namespace std;
 int main(int argc, char* argv[])
 {
     int x = 0;
-    int i = 0;
+    int d = 0;
 
     cin >> x;
 
-        for (i = 1; i <= x; i++)
+    for (int i = 0; i < x; ++i)
+    {
+        ++d;
+        if (x % d == 0)
         {
-            if (x % i == 0)
-            {
-                cout << i << " ";
-            }
+            cout << d << " ";
         }
+    }
 
     return EXIT_SUCCESS;
 }

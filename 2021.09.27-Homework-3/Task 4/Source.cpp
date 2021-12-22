@@ -10,7 +10,6 @@ int main(int argc, char* argv[])
     int D = 1;
     int c = 0;
     int N = 1;
-    int i = 0;
 
     cin >> n >> k;
 
@@ -22,7 +21,7 @@ int main(int argc, char* argv[])
     }
     else
     {
-        for (i = 1; i <= n - 1; i++)
+        for (int i = 1; i <= n - 1; ++i)
         {
             N = N * (i + 1);
         }
@@ -34,7 +33,7 @@ int main(int argc, char* argv[])
     }
     else
     {
-        for (i = 1; i <= k - 1; i++)
+        for (int i = 1; i <= k - 1; ++i)
         {
             K = K * (i + 1);
         }
@@ -46,7 +45,7 @@ int main(int argc, char* argv[])
     }
     else
     {
-        for (i = 1; i <= d - 1; i++)
+        for (int i = 1; i <= d - 1; ++i)
         {
             D = D * (i + 1);
         }
