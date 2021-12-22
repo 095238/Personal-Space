@@ -25,7 +25,7 @@ int main(int argc, char* argv[])
         c = d;
     }
 
-    if ((a + b > c) && (a + c > b) && (b + c > a) && not(a == 0) && not(b == 0) && not(c == 0))
+    if ((a + b > c) && (a + c > b) && (b + c > a) && (a != 0) && (b != 0) && (c != 0))
     {
         if (c * c == a * a + b * b)
         {

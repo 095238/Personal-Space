@@ -23,17 +23,17 @@ int main(int argc, char* argv[])
     {
          cout << "NO" << endl;
     }
-    else if (c*b == d*a) 
+    else if (c * b == d * a) 
     {
          cout << "NO" << endl;
      }
-    else if ((-b/a<0) || not (-b % a ==0))
+    else if ((-b / a < 0) || not (-b % a == 0))
     {
         cout << "NO" << endl;
     }
     else
     {
-        cout << -b/a << endl;
+        cout << -b / a << endl;
     }
    
      return EXIT_SUCCESS;

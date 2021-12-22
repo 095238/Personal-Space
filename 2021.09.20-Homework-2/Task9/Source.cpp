@@ -11,22 +11,22 @@ int main(int argc, char* argv[])
     
     cin >> M >> N >> x >> y;
 
-    if (not(x == 1))
+    if (x != 1))
     {
         cout << x - 1 << " " << y << endl;
     }
     
-    if (not(x == M))
+    if (x != M))
     {
         cout << x + 1 << " " << y << endl;
     }
     
-    if (not(y == 1))
+    if (y != 1))
     {
         cout << x << " " << y - 1 << endl;
     }
    
-    if (not(y == N))
+    if (y != N))
     {
         cout << x << " " << y + 1;
     }

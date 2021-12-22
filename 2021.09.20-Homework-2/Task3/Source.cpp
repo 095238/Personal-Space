@@ -16,15 +16,15 @@ int main(int argc, char* argv[])
     
     if (n <= k)
     {
-      d = m*2;
+        d = m * 2;
     }
-    else if (n*2 % k == 0)
+    else if (n * 2 % k == 0)
     {
-        d = m*(n*2 / k);
+        d = m * (n * 2 / k);
     }
     else
     {
-        d = m*(1 + (n*2 / k));
+        d = m * (1 + (n * 2 / k));
     }
 
     cout << d << endl;

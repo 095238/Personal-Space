@@ -13,6 +13,7 @@ int main(int argc, char* argv[])
    
     int dx = x1 - x2;
     int dy = y1 - y2;
+
     if (dx < 0)
     {
         dx = -dx;

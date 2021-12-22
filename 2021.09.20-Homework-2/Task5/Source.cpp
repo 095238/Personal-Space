@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
 
     cin >> k;
     
-    if ((k % 4 == 0) || (k==1))
+    if ((k % 4 == 0) || (k == 1))
     {
         cout << "YES" << endl;
     }
